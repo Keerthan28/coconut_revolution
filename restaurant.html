@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Coconut Revolution, Kakinada</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -15,6 +16,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
   background-size: cover;
   background-image: url("coconut_revolution/head_image.avif");
   min-height: 90%;
+}
+th, td {
+  padding-right: 80px;
 }
 </style>
 </head>
@@ -48,101 +52,169 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
   
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
     <div class="w3-row w3-center w3-border w3-border-dark-grey">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Specials');" id="myLink">
-        <div class="w3-col s6 m3 tablink w3-padding-large w3-hover-green" style = "">Specials</div>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Chill');" id="myLink">
+        <div class="w3-col s4 m4 l2 tablink w3-padding-large w3-hover-green">ChILL (Coolers)</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Wellness Warriors');">
-        <div class="w3-col s6 m3 tablink w3-padding-large w3-hover-green">Wellness Warriors</div>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Wellness Warriors');"id="myLink">
+        <div class="w3-col s4 m4 l2 tablink w3-padding-large w3-hover-green">Wellness Warriors</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Smoothies');">
-        <div class="w3-col s6 m3 tablink w3-padding-large w3-hover-green">Smoothies</div>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Smoothies');"id="myLink">
+        <div class="w3-col s4 m4 l2 tablink w3-padding-large w3-hover-green">Blues (Smoothies)</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Chill');">
-        <div class="w3-col s6 m3 tablink w3-padding-large w3-hover-green">Chill</div>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Classic');"id="myLink">
+        <div class="w3-col s4 m4 l2 tablink w3-padding-large w3-hover-green">Classic (Coconut Pulp)</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Coffee');"id="myLink">
+        <div class="w3-col s4 m4 l2 tablink w3-padding-large w3-hover-green">CR's Coffee</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Soda');"id="myLink">
+        <div class="w3-col s4 m4 l2 tablink w3-padding-large w3-hover-green">Pops (soda)</div>
       </a>
     </div>
 
-    <div id="Specials" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>Summer Melon Cooler [1 litre]</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 210</span></h1>
-      <p class="w3-text-grey">Base: Organic Coconut Water, Fresh Fruit: Watermelon</p>
+    <div id="Chill" class="w3-container menu w3-padding-32 w3-white">
+      <p class = "w3-text-grey">Base: Organic Coconut Water</p>
+      <br>
+      <h1><b>FluFighter </b><span class="w3-tag w3-grey w3-round">Ginger,lime,Apple & Orange</span> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 80</span></h1>
       <hr>
-   
-      <h1><b>Citrus Twist Cooler [1 litre]</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 210</span></h1>
-      <p class="w3-text-grey">Base: Organic Coconut Water, Sathvi Farm Fresh Lemons, Fresh Pudina(Mint) Leaves</p>
+      <h1><b>brain booster </b><span class="w3-tag w3-grey w3-round">Dry Fruits,Banana</span> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 90</span></h1>
       <hr>
-      
-      <h1><b>Pina Colada Cooler [1 litre]</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 200</span></h1>
-      <p class="w3-text-grey">Base: Organic Coconut Water, Fresh Fruit: Pineapple</p>
+      <h1><b>Berry Splash </b><span class="w3-tag w3-light-green w3-round">Seasonal</span>  <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 80</span></h1>
       <hr>
-
-      <h1><b>Orange Blast Cooler [1 litre]</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 200</span></h1>
-      <p class="w3-text-grey">Base: Organic Coconut Water, Farm Fresh Fruit: Orange</p>
+      <h1><b>chocolate </b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 70</span></h1>
       <hr>
-
-      <h1><b>Summer Melon Cooler [500ml]</b> <span class="w3-tag w3-green w3-round">Hot!</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 120</span></h1>
-      <p class="w3-text-grey">Base: Organic Coconut Water, Fresh Fruit: Watermelon</p>
+      <h1><b>Fuzzy Grape </b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 70</span></h1>
       <hr>
-
-      <h1><b>Citrus Twist Cooler [500ml]</b> <span class="w3-tag w3-orange w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 110</span></h1>
-      <p class="w3-text-grey">Base: Organic Coconut Water, Sathvi Farm Fresh Lemons, Fresh Pudina(Mint) Leaves</p>
+      <h1><b>Pina Caloda</b><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 70</span></h1>
       <hr>
-      <h1><b>Pina Colada Cooler [500ml]</b> <span class="w3-tag w3-orange w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 120</span></h1>
-      <p class="w3-text-grey">Base: Organic Coconut Water, Fresh Fruit: Pineapple</p>
+      <h1><b>Orange/Mosambi Blast</b> <span class="w3-tag w3-light-green w3-round">Seasonal</span> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 70</span></h1>
+      <hr>
+      <h1><b>Apple lush</b><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 70</span></h1>
+      <hr>
+      <h1><b>muskmelon</b><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 70</span></h1>
+      <hr>
+      <h1><b>chicoo (sapota)</b><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 70</span></h1>
+      <hr>
+      <h1><b>Summer melon</b><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 70</span></h1>
+      <hr>
+      <h1><b>Citrus Twist </b><span class="w3-tag w3-grey w3-round">Ginger,lime,Apple & Orange</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 60</span></h1>
+      <hr>
+      <h1><b>Go Guava</b><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 60</span></h1>
+      <hr>
+      <h1><b>Rose Punch </b><span class="w3-tag w3-grey w3-round">sharbat</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 60</span></h1>
+      <hr>
     </div>
 
     <div id="Wellness Warriors" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
-      <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+      <p class = "w3-text-grey">Base: Coconut Water</p>
+      <h1><b>Orange Amla</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 80</span></h1>
       <hr>
    
-      <h1><b>Ravioli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span></h1>
-      <p class="w3-text-grey">Ravioli filled with cheese</p>
-      <hr>
-      
-      <h1><b>Spaghetti Classica</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span></h1>
-      <p class="w3-text-grey">Fresh tomatoes, onions, ground beef</p>
+      <h1><b>Apple Ginger</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 80</span></h1>
       <hr>
 
-      <h1><b>Seafood pasta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$25.50</span></h1>
-      <p class="w3-text-grey">Salmon, shrimp, lobster, garlic</p>
+      <h1><b>CR's ABC</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 80</span></h1>
     </div>
 
 
     <div id="Smoothies" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
-      <p class="w3-text-grey">Ask the waiter</p>
+      <p class = "w3-text-grey">Base: Coconut Ice-Cream</p>
+      <h1><b>Dry Fruit </b> <span class="w3-tag w3-grey w3-round">Cocada/Apple/Banana</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 120</span></h1>
       <hr>
    
-      <h1><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
-      <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
+      <h1><b>Kiwi</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 120</span></h1>
       <hr>
       
-      <h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
-      <p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
+      <h1><b>Seethaphal </b><span class="w3-tag w3-light-green w3-round">Seasonal</span> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 120</span></h1>
       <hr>
       
-      <h1><b>Tomozzarella</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-      <p class="w3-text-grey">Tomatoes and mozzarella</p>
+      <h1><b>strawberry </b><span class="w3-tag w3-light-green w3-round">Seasonal</span> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 120</span></h1>
+      <hr>
+      <h1><b>Mango </b><span class="w3-tag w3-light-green w3-round">Seasonal</span> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 120</span></h1>
+      <hr>
+      <h1><b>Apple</b><span class="w3-tag w3-light-green w3-round">Seasonal</span> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 120</span></h1>
+      <hr>
+      <h1><b>Chocolate </b> <span class="w3-tag w3-grey w3-round">Munch/KitKat/DairyMilk</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 120</span></h1>
+      <hr>
+      <h1><b>Oreo </b><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 120</span></h1>
+      <hr>
+      <h1><b>Guava </b><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 110</span></h1>
+      <hr>
+      <h1><b>Pineapple Crush </b><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 110</span></h1>
+      <hr>
+      <h1><b>Muskmelon </b><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 110</span></h1>
+      <hr>
+      <h1><b>Cocada (Coconut Malai) </b><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 110</span></h1>
+      <hr>
     </div>
 
-    <div id="Chill" class="w3-container menu w3-padding-32 w3-white">
-      <h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
-      <p class="w3-text-grey">Ask the waiter</p>
+    <div id="Soda" class="w3-container menu w3-padding-32 w3-white">
+      <p class = "w3-text-grey">Base: Coconut Water</p>
+      <h1><b>Berry </b><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 50</span></h1>
       <hr>
    
-      <h1><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
-      <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
+      <h1><b>Orange </b> <span class="w3-right  w3-tag w3-dark-grey w3-round">₹ 50</span></h1>
       <hr>
       
-      <h1><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span></h1>
-      <p class="w3-text-grey">Grilled ciabatta, garlic butter, onions</p>
+      <h1><b>Citrus Twist </b> <span class="w3-tag w3-grey w3-round">Lemon & Mint</span> <span class="w3-right  w3-tag w3-dark-grey w3-round">₹ 50</span></h1>
       <hr>
       
-      <h1><b>Tomozzarella</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$10.50</span></h1>
-      <p class="w3-text-grey">Tomatoes and mozzarella</p>
+      <h1><b>Sharbat </b> <span class="w3-right  w3-tag w3-dark-grey w3-round">₹ 50</span></h1>
+      <hr>
+      <h1><b>Fuzzy Grape </b> <span class="w3-right  w3-tag w3-dark-grey w3-round">₹ 50</span></h1>
+    </div>
+    <div id="Classic" class="w3-container menu w3-padding-32 w3-white">
+      <p class = "w3-text-grey">Base: Coconut Water</p>
+      <h1><b>Indian Cocada </b><span class="w3-tag w3-grey w3-round">Coconut Malai</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 60</span></h1>
+      <hr>
+   
+      <h1><b>Dry Fruit Cocada </b><span class="w3-tag w3-grey w3-round">Dry Fruit, Malai</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 85</span></h1>
+      <hr>
+      
+      <h1><b>Strawberry Cocada </b><span class="w3-tag w3-grey w3-round">Strawberry, Malai</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 85</span></h1>
+      <hr>
+      
+      <h1><b>Muskmelon Cocade </b><span class="w3-tag w3-grey w3-round">Muskmelon, Malai</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 85</span></h1>
+      <hr>
+      <h1><b>Choco Cocada </b><span class="w3-tag w3-grey w3-round">Chocolate, Malai</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 75</span></h1>
+      <hr>
+      <h1><b>Pineapple Cocade </b><span class="w3-tag w3-grey w3-round">Pineapple, Malai</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 85</span></h1>
+      <hr>
+      <h1><b>Chikoo Cocade </b><span class="w3-tag w3-grey w3-round">Sapota, Malai</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 85</span></h1>
+      <hr>
+      <h1><b>Oreo Cocade </b><span class="w3-tag w3-grey w3-round">Oreo, Malai</span><span class="w3-right w3-tag w3-dark-grey w3-round">₹ 85</span></h1>
+    </div>
+    <div id="Coffee" class="w3-container menu w3-padding-32 w3-white">
+      <p class = "w3-text-grey">Base: Coconut Ice-Cream/Coconut Milk</p>
+      <h1><b>Coffee Shake</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 90</span></h1>
+      <hr>
+   
+      <h1><b>Date With Coffee</b><span class="w3-tag w3-grey w3-round">Dates</span> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 110</span></h1>
+      <hr>
+
+      <h1><b>Belgium Coffee</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₹ 140</span></h1>
     </div>
     <br>
-
+    <div style = "border-width: 2px; border-color:white; border-style: solid;">
+    <h1 style = "text-align:center;">Our Signature</h1>
+    <table style="text-align:center; margin-left: auto;margin-right: auto;">
+      <tr>
+        <th></th>
+        <th>350 ML</th>
+        <th>1 L</th>
+      </tr>
+      <tr>
+        <td>Coconut Water</td>
+        <td>₹ 45</td>
+        <td>₹ 125</td>
+      </tr>
+      <tr>
+        <td>Indian Cocada <br>(Coconut Malai)</td>
+        <td>₹ 60</td>
+        <td>₹ 160</td>
+      </tr>
+    </table>
+    </div>
   </div>
 </div>
 
@@ -160,7 +232,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 </div>
 
 <!-- Image of location/map -->
-<img src="coconut_revolution/maps.png" class="w3-image " style="width:100%;" id="myMap">
+<a href="https://www.google.com/maps/place/Coconut+Revolution/@16.9846102,82.2398402,17z/data=!4m5!3m4!1s0x3a382906840f3991:0xa8512c0423d52fca!8m2!3d16.9846659!4d82.2420502"><img src="coconut_revolution/maps.png" class="w3-image " style="width:100%;" id="myMap"></a>
 
 <!-- Contact -->
 <div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
@@ -182,6 +254,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 
 <script>
 // Tabbed Menu
+
 function openMenu(evt, menuName) {
   var i, x, tablinks;
   x = document.getElementsByClassName("menu");
@@ -190,7 +263,7 @@ function openMenu(evt, menuName) {
   }
   tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < x.length; i++) {
-     tablinks[i].className = tablinks[i].className.replace(" w3-green", "");
+     tablinks[i].className = tablinks[i].className.replace(" w3-green", "w3-black");
   }
   document.getElementById(menuName).style.display = "block";
   evt.currentTarget.firstElementChild.className += " w3-green";
