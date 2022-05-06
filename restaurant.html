@@ -19,14 +19,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
 .bgimg {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("coconut_revolution/head_image.avif");
+  background-image: url("https://i0.wp.com/www.cocorevolution.in/wp-content/uploads/2022/04/Main-banner.png");
   min-height: 90%;
 }
+@media only screen and (max-width:400px){
+  .bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("coconut_revolution/coconut.jpeg");
+  min-height: 90%;}}
 th, td {
   padding-right: 10vw;
 }
 h1{
-  font-size: 5vw
+  font-size: 25px
 }
 </style>
 </head>
@@ -231,7 +237,7 @@ h1{
 <div class="w3-container w3-padding-64 w3-light-green w3-xlarge" id="about">
   <div class="w3-content">
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
-    <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <p>Coconut Revolution provides fresh and healthy coconut-based juices and Smoothies optimized for your health.</p>
     <p><strong>The Chef?</strong> Mr. Subba Rao<img src="w3schools.com/w3images/chef.jpg" style="width:150px" class="w3-circle w3-right" alt="Chef"></p>
     <img src="coconut_revolution/resto.avif" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
     
@@ -247,10 +253,10 @@ h1{
 <div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
   <div class="w3-content">
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
-    <p>Find us at some address at some place or call us at 05050515-122330</p>
-    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
-    <p class="w3-xxlarge"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
-    <form action="/action_page.php" target="_blank">
+    <p>Find us on <a href="https://www.zomato.com/kakinada/coconut-revolution-kakinada-locality/order" style="text-decoration-line: none;">Zomato</a> or call us at +91-81420 55566</p>
+    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the Juices to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p class="w3-xxlarge"><strong>Book</strong> a joice, ask for today's special or just send us a message:</p>
+    <form action="action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
